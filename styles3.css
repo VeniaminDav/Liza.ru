@@ -1,0 +1,50 @@
+@import "main.css";
+body{
+  background-image: linear-gradient(90deg, Chartreuse, Green);
+}
+ .a{
+  font-size: 20px; font-weight:bolder;color: blue;
+ }
+ .b{
+  font-size: 20px; font-weight:bolder;color: red;
+ }
+.asaide{
+  background-image: linear-gradient(135deg, Green, Chartreuse);
+  float: right;
+  border:2px solid Maroon;
+  padding-right: 30px;
+  padding-bottom: 100px;
+  padding-left: : 5px;
+}
+.img1{
+  border:2px solid DarkBlue;
+  margin: 10px;
+  border-radius: 50%;
+}
+.img{
+  border:2px solid DarkBlue;
+  margin: 0px;
+}
+.btn{
+  border-radius: 20px;
+  color: White;
+  text-decoration: none;
+  margin-right: 15px;
+  margin-left: 15px;
+  background-image: linear-gradient(45deg, Green, Chartreuse);
+  border:2px solid DarkBlue;
+  padding: 10px;
+  transition: all 0.5s ease;
+}
+.btn:hover{
+  background-image: linear-gradient(45deg, DarkGreen, LimeGreen);
+}
+.nav{
+  background-image: linear-gradient(135deg, Green, Chartreuse);
+  padding:20px;
+  border:2px solid DarkBlue;
+}
+
+hr{
+  border:1px solid DarkBlue;
+}
